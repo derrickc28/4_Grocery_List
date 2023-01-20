@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="project.js"></script>
+    <link rel="stylesheet" href="project.css" ; />
+    <title></title>
+
+</head>
+
+<body onload="initialize();">
+    <div class = "heading">
+    <img src="logo.png" class = "logo">
+    </div>
+
+    <div class = "something">
+    </div>
+    
+    <div class = "label">
+    <label>
+        Selection: <input type="text" id="groceryselection" />
+    </label>
+    </div>
+    
+    <div class = "buttonDiv">
+    <button onclick="addGrocery();">Add Grocery</button>
+    <button onclick="removeGrocery();">Remove Grocery</button>
+    <button onclick="moveUp()">Move Up</button>
+    <button onclick="moveDown()">Move Down</button> 
+    <button type="button"onclick="show()" id="btnID">Show Image</button>
+    </div>
+
+    <div class = "outboxDiv">
+        <div class = "outbox" id="outbox"></div>
+    </div>
+
+    <div class = "video">
+        <iframe width="471" height="269" src="https://www.youtube.com/embed/EyFsv8o12EY?autoplay=0&mute=1" title="Japanese Commercials #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
